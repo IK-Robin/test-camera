@@ -47,10 +47,18 @@
 
                     <div class="vin_capture">
                         <h2>VIN Capture</h2>
-<form id="vinForm">
-<input type="file" id="vinInput" accept="image/*" style="display: none;">
+ <form id="vinForm">
+                            <input type="file" id="vinInput" accept="image/*" style="display: none;">
 
-</form>
+                            <div class="capture_vin_section" onclick="document.getElementById('vinInput').click();">
+                                <div class="camara_icon">
+                                    <svg width="28" height="29" viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M20.9419 7.87516C20.2329 7.87516 19.5819 7.46683 19.2565 6.83683L18.4196 5.14516C17.8849 4.0835 16.49 3.2085 15.3044 3.2085H12.6426C11.4454 3.2085 10.0505 4.0835 9.51584 5.14516L8.67894 6.83683C8.35348 7.46683 7.70255 7.87516 6.99351 7.87516C4.47118 7.87516 2.47191 10.0102 2.63464 12.5302L3.23907 22.1668C3.37856 24.5702 4.66878 26.5418 7.87691 26.5418H20.0585C23.2666 26.5418 24.5452 24.5702 24.6963 22.1668L25.3008 12.5302C25.4635 10.0102 23.4642 7.87516 20.9419 7.87516ZM12.2242 9.3335H15.7113C16.1878 9.3335 16.583 9.73016 16.583 10.2085C16.583 10.6868 16.1878 11.0835 15.7113 11.0835H12.2242C11.7476 11.0835 11.3524 10.6868 11.3524 10.2085C11.3524 9.73016 11.7476 9.3335 12.2242 9.3335ZM13.9677 22.0152C11.8057 22.0152 10.0389 20.2535 10.0389 18.0718C10.0389 15.8902 11.7941 14.1285 13.9677 14.1285C16.1413 14.1285 17.8965 15.8902 17.8965 18.0718C17.8965 20.2535 16.1297 22.0152 13.9677 22.0152Z" fill="#FFB515"/>
+                                    </svg>
+                                </div>
+                                <p>Capture VIN with Live Camera View</p>
+                            </div>
+                        </form>
 
                         <p class="vin_p">Align the VIN within the box for best results.</p>
                     </div>
