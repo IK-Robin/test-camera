@@ -48,17 +48,8 @@
                     <div class="vin_capture">
                         <h2>VIN Capture</h2>
 <form id="vinForm">
-  <!-- Button for capturing a new photo -->
-  <button type="button" onclick="document.getElementById('vinCapture').click();">
-    Capture Photo
-  </button>
-  <input type="file" id="vinCapture" accept="image/*" capture="environment" style="display: none;">
+<input type="file" id="vinInput" accept="image/*" style="display: none;">
 
-  <!-- Button for selecting from gallery -->
-  <button type="button" onclick="document.getElementById('vinGallery').click();">
-    Choose from Gallery
-  </button>
-  <input type="file" id="vinGallery" accept="image/*" style="display: none;">
 </form>
 
                         <p class="vin_p">Align the VIN within the box for best results.</p>
